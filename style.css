@@ -1,0 +1,23 @@
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: red;
+}
+
+canvas {
+    animation-name: hello;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+}
+ 
+@keyframes hello {
+    from{box-shadow: 1px 1px 50px royalblue;}
+    to{box-shadow: 1px 1px 50px tomato;}
+}
+
+
